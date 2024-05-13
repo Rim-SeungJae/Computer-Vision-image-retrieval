@@ -15,5 +15,5 @@
 3. 해당 SIFT 파일에 대한 BOW(Bag Of Words) 벡터 구축
 이미지의 SIFT feature과 visual word 간의 거리를 계산하여 해당 특징과 가장 유사한 visual word를 결정합니다. 모든 feature에 대해 이러한 계산을 반복하여 해당 이미지의 모든 visual word에 대한 빈도를 나타내는 BOW 벡터를 얻을 수 있습니다.
 
-모든 벡터를 .des 파일로 저장
+4. 모든 벡터를 .des 파일로 저장
 이전 단계에서 얻은 모든 벡터를 수집하고 .des 파일로 저장합니다.
