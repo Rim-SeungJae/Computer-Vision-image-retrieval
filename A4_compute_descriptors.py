@@ -40,6 +40,6 @@ if __name__=="__main__":
     # tf_idf = des*idf
     # tf_idf = tf_idf.reshape(-1).astype(np.float32)
 
-    with open('A4_2018310773.des', "wb") as f:
+    with open('descriptor.des', "wb") as f:
         header.tofile(f)
         des.tofile(f)
